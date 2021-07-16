@@ -1,6 +1,6 @@
 # Manifold Curvature Paper (PNAS 2021)
 
-This repository provides instructions and code to reproduce all results, numerics and figures from the [Manifold Curvature paper](https://doi.org/10.1016/j.cell.2020.04.048):
+This repository provides instructions and code to reproduce all results, numerics and figures from the [Manifold Curvature paper](https://doi.org/10.1073/pnas.2100473118):
 
 > D. Sritharan*, S. Wang*, S. Hormoz. "Computing the Riemannian curvature of image patch and single-cell RNA sequencing data manifolds using extrinsic differential geometry." PNAS (2021), https://doi.org/10.1073/pnas.2100473118.
 
@@ -20,7 +20,7 @@ For convenience, there are four main paths referred to below that appear in mult
 2. Download the code from this repository into the directory given by PAPER_PATH:
 
 	```bash
-	$ git clone https://gitlab.com/hormozlab/PNAS_2020_Curvature.git ${PAPER_PATH}
+	$ git clone https://gitlab.com/hormozlab/PNAS_2021_Curvature.git ${PAPER_PATH}
 	```
 
 3. [Download Seurat V3.1.2](https://satijalab.org/seurat/install.html) for working with single-cell datasets.
