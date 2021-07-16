@@ -1,8 +1,8 @@
-# Manifold Curvature Paper
+# Manifold Curvature Paper (PNAS 2021)
 
 This repository provides instructions and code to reproduce all results, numerics and figures from the [Manifold Curvature paper](https://doi.org/10.1016/j.cell.2020.04.048):
 
-> D. Sritharan*, S. Wang*, S. Hormoz. "Computing the Riemannian curvature of image patch and single-cell RNA sequencing data manifolds using extrinsic differential geometry." bioRxiv(2021).
+> D. Sritharan*, S. Wang*, S. Hormoz. "Computing the Riemannian curvature of image patch and single-cell RNA sequencing data manifolds using extrinsic differential geometry." PNAS (2021), https://doi.org/10.1073/pnas.2100473118.
 
 The instructions will walk you through how to (i) download relevant code and data, (ii) run simulations, and (iii) regenerate figures and reproduce numerics from the paper.
 
@@ -79,7 +79,7 @@ For convenience, there are four main paths referred to below that appear in mult
 	>> fit_optimal_KB(RESULTS_PATH);
 	```
 
-15. Compute curvature of image datasets Klein bottle embeddings:
+15. Compute curvature of image datasets and Klein bottle embeddings:
 
 	```MATLAB
 	>> generate_image_results(RESULTS_PATH);
@@ -163,7 +163,7 @@ For convenience, there are four main paths referred to below that appear in mult
 	>> make_extrinsic_subplots(RESULTS_PATH);			% Figure 2
 	>> make_confounder_subplots(RESULTS_PATH);			% Figure S2
 	>> make_image_subplots(RESULTS_PATH);				% Figures 3, S3
-	>> make_SC_subplots(DATA_PATH, RESULTS_PATH);		% Figures 4-5, S4-S8
+	>> make_SC_subplots(DATA_PATH, RESULTS_PATH);			% Figures 4-5, S4-S8
     ```
 
 25. Compute all the statistics and numerical quantities found in the manuscript text:
