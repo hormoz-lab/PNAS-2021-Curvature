@@ -20,7 +20,7 @@ For convenience, there are four main paths referred to below that appear in mult
 2. Download the code from this repository into the directory given by PAPER_PATH:
 
 	```bash
-	$ git clone https://gitlab.com/hormozlab/PNAS_2021_Curvature.git ${PAPER_PATH}
+	$ git clone https://github.com/hormoz-lab/PNAS_2021_Curvature.git ${PAPER_PATH}
 	```
 
 3. [Download Seurat V3.1.2](https://satijalab.org/seurat/install.html) for working with single-cell datasets.
