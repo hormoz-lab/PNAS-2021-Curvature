@@ -15,7 +15,7 @@ For convenience, there are four main paths referred to below that appear in mult
 
 ## Download Software
 
-1. If you haven't done so, first [download and install the ManifoldCurvature code](https://gitlab.com/hormozlab/ManifoldCurvature) according to the instructions, making sure to update the MATLAB path as instructed.
+1. If you haven't done so, first [download and install the ManifoldCurvature code](https://github.com/hormoz-lab/ManifoldCurvature) according to the instructions, making sure to update the MATLAB path as instructed.
 
 2. Download the code from this repository into the directory given by PAPER_PATH:
 
